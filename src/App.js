@@ -7,10 +7,22 @@ function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
-          <Dictionary defaultKeyword="cat" />
+          <Dictionary defaultKeyword="hello" />
         </main>
-        <footer className="text-center">
-          Open-source coded by Cyra Iftikhar
+        <footer className="text-center footer">
+          <a
+            href="https://github.com/CyraIftikhar/react-weather-app"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {" "}
+            Open-source
+          </a>{" "}
+          coded by Cyra Iftikhar, hosted on{" "}
+          <a href="https://www.netlify.com/" rel="noreffer" target="_blank">
+            {" "}
+            Netlify{" "}
+          </a>
         </footer>
       </div>
     </div>
