@@ -46,7 +46,9 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1 className="title text-center">Dictionary</h1>
+        <h1 className="title text-center">
+          <i class="fa-solid fa-book"></i> Dictionary
+        </h1>
         <section>
           <h1>What word do you want to look up?</h1>
           <form onSubmit={handleSubmit}>
