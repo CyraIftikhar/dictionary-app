@@ -19,7 +19,7 @@ function App() {
             Open-source
           </a>{" "}
           coded by Cyra Iftikhar, hosted on{" "}
-          <a href="https://www.netlify.com/" rel="noreffer" target="_blank">
+          <a href="https://www.netlify.com/" rel="noreferrer" target="_blank">
             {" "}
             Netlify{" "}
           </a>
